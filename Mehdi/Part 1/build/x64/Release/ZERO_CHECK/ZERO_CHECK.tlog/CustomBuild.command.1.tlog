@@ -1,0 +1,10 @@
+^C:\USERS\ACE-ALCHEMIST\DESKTOP\TUNI\PERIOD 5\PARALLEL COMPUTING\PROJECT\SATELITE PROJECT\SOLVED LAST YEAR\PROJECT\PART 1\BUILD\CMAKEFILES\BD4A227FE36750D7BEA4991709AF9DC9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Ace-ALCHEMIST/Desktop/TUNI/Period 5/Parallel Computing/Project/Satelite Project/Solved Last Year/Project/Part 1" "-BC:/Users/Ace-ALCHEMIST/Desktop/TUNI/Period 5/Parallel Computing/Project/Satelite Project/Solved Last Year/Project/Part 1/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Ace-ALCHEMIST/Desktop/TUNI/Period 5/Parallel Computing/Project/Satelite Project/Solved Last Year/Project/Part 1/build/Satellites.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
