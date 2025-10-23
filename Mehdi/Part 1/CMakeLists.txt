@@ -7,12 +7,11 @@ add_executable(parallel parallel.c)
 # Here is an example syntax how to add compiler options to your build process
 # See the project work document on compiler flag syntax on Linux and Windows
 
-target_compile_options(parallel PRIVATE "/Ox" "/fp:fast" /Qvec-report:2)
+target_compile_options(parallel PRIVATE "/O2" "/fp:fast" "/Qvec-report:2")
 
 
 
 # UNCOMMENT THESE TO ENABLE OPENMP
-#
 find_package(OpenMP REQUIRED)
 target_link_libraries(parallel OpenMP::OpenMP_C)
 

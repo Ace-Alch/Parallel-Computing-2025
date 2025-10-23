@@ -1,3 +1,0 @@
-C:/Users/Ace-ALCHEMIST/Desktop/TUNI/Period 5/Parallel Computing/Project/Satelite Project/Solved Last Year/Project/Part 1/build/CMakeFiles/parallel.dir
-C:/Users/Ace-ALCHEMIST/Desktop/TUNI/Period 5/Parallel Computing/Project/Satelite Project/Solved Last Year/Project/Part 1/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Ace-ALCHEMIST/Desktop/TUNI/Period 5/Parallel Computing/Project/Satelite Project/Solved Last Year/Project/Part 1/build/CMakeFiles/ZERO_CHECK.dir
