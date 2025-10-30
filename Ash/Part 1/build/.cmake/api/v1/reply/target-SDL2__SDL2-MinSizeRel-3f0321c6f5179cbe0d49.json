@@ -1,0 +1,65 @@
+{
+	"abstract" : true,
+	"artifacts" : 
+	[
+		{
+			"path" : "D:/Tampere University/COMP.CE.350 Parallel Computing/Project/Satellites/SDL2-2.32.10/cmake/../lib/x64/SDL2.dll"
+		},
+		{
+			"path" : "D:/Tampere University/COMP.CE.350 Parallel Computing/Project/Satellites/SDL2-2.32.10/cmake/../lib/x64/SDL2.lib"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"find_package"
+		],
+		"files" : 
+		[
+			"SDL2-2.32.10/cmake/sdl2-config.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 2
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"id" : "SDL2::SDL2::@6890427a1f51a3e7e1df",
+	"imported" : true,
+	"local" : true,
+	"name" : "SDL2::SDL2",
+	"nameOnDisk" : "SDL2.dll",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "SHARED_LIBRARY"
+}

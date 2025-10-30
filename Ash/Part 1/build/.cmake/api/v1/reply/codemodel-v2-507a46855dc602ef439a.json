@@ -1,0 +1,480 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenMP::OpenMP_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenMP__OpenMP_C-Debug-981c9fe1ef05ce7cf792.json",
+					"name" : "OpenMP::OpenMP_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenMP::OpenMP_CXX::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenMP__OpenMP_CXX-Debug-8188e3a862024fe2ee88.json",
+					"name" : "OpenMP::OpenMP_CXX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2-Debug-3f0321c6f5179cbe0d49.json",
+					"name" : "SDL2::SDL2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2main-Debug-12e82872e49ae002f15c.json",
+					"name" : "SDL2::SDL2main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2test-Debug-943c4a5826cefa70df7c.json",
+					"name" : "SDL2::SDL2test",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Satellites",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-88cb8b34e989f5f1641f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-86daa81d522025f0d7bf.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parallel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parallel-Debug-43f7ad083f8580e2fbdb.json",
+					"name" : "parallel",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenMP::OpenMP_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenMP__OpenMP_C-Release-981c9fe1ef05ce7cf792.json",
+					"name" : "OpenMP::OpenMP_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenMP::OpenMP_CXX::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenMP__OpenMP_CXX-Release-8188e3a862024fe2ee88.json",
+					"name" : "OpenMP::OpenMP_CXX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2-Release-3f0321c6f5179cbe0d49.json",
+					"name" : "SDL2::SDL2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2main-Release-12e82872e49ae002f15c.json",
+					"name" : "SDL2::SDL2main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2test-Release-943c4a5826cefa70df7c.json",
+					"name" : "SDL2::SDL2test",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Satellites",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-88cb8b34e989f5f1641f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-86daa81d522025f0d7bf.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parallel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parallel-Release-712d426aea6937b958cd.json",
+					"name" : "parallel",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenMP::OpenMP_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenMP__OpenMP_C-MinSizeRel-981c9fe1ef05ce7cf792.json",
+					"name" : "OpenMP::OpenMP_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenMP::OpenMP_CXX::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenMP__OpenMP_CXX-MinSizeRel-8188e3a862024fe2ee88.json",
+					"name" : "OpenMP::OpenMP_CXX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2-MinSizeRel-3f0321c6f5179cbe0d49.json",
+					"name" : "SDL2::SDL2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2main-MinSizeRel-12e82872e49ae002f15c.json",
+					"name" : "SDL2::SDL2main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2test-MinSizeRel-943c4a5826cefa70df7c.json",
+					"name" : "SDL2::SDL2test",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-MinSizeRel-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Satellites",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-88cb8b34e989f5f1641f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-86daa81d522025f0d7bf.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parallel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parallel-MinSizeRel-f4b68dcf9adbdc36310d.json",
+					"name" : "parallel",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenMP::OpenMP_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenMP__OpenMP_C-RelWithDebInfo-981c9fe1ef05ce7cf792.json",
+					"name" : "OpenMP::OpenMP_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenMP::OpenMP_CXX::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenMP__OpenMP_CXX-RelWithDebInfo-8188e3a862024fe2ee88.json",
+					"name" : "OpenMP::OpenMP_CXX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2-RelWithDebInfo-3f0321c6f5179cbe0d49.json",
+					"name" : "SDL2::SDL2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2main-RelWithDebInfo-12e82872e49ae002f15c.json",
+					"name" : "SDL2::SDL2main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SDL2::SDL2test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SDL2__SDL2test-RelWithDebInfo-943c4a5826cefa70df7c.json",
+					"name" : "SDL2::SDL2test",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Satellites",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-88cb8b34e989f5f1641f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-86daa81d522025f0d7bf.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parallel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parallel-RelWithDebInfo-8750b898977fccb2c23e.json",
+					"name" : "parallel",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Tampere University/COMP.CE.350 Parallel Computing/Project/Satellites/build",
+		"source" : "D:/Tampere University/COMP.CE.350 Parallel Computing/Project/Satellites"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}

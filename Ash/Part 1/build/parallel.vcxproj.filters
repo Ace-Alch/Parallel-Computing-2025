@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Tampere University\COMP.CE.350 Parallel Computing\Project\Satellites\parallel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Tampere University\COMP.CE.350 Parallel Computing\Project\Satellites\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{59AA0A9B-985A-34FF-9E1B-F32A63697728}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

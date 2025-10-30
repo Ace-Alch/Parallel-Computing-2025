@@ -1,0 +1,3 @@
+D:/Tampere University/COMP.CE.350 Parallel Computing/Project/Satellites/out/build/x64-Release/CMakeFiles/parallel.dir
+D:/Tampere University/COMP.CE.350 Parallel Computing/Project/Satellites/out/build/x64-Release/CMakeFiles/edit_cache.dir
+D:/Tampere University/COMP.CE.350 Parallel Computing/Project/Satellites/out/build/x64-Release/CMakeFiles/rebuild_cache.dir
