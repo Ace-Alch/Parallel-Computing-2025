@@ -50,7 +50,7 @@ cmake_ninja_workdir = C$:\Users\vqf634\source\repos\Parallel-Computing-2025\Orig
 build cmake_object_order_depends_target_parallel: phony || .
 
 build CMakeFiles\parallel.dir\parallel.c.obj: C_COMPILER__parallel_unscanned_Debug C$:\Users\vqf634\source\repos\Parallel-Computing-2025\Original$ Code\Satellites-Project$ work$ code$ files\Satellites\parallel.c || cmake_object_order_depends_target_parallel
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Qvec-report:2
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
   INCLUDES = -external:I"C:\Users\vqf634\source\repos\Parallel-Computing-2025\Original Code\Satellites-Project work code files\Satellites\SDL2-2.32.10\cmake\..\include" -external:W0
   OBJECT_DIR = CMakeFiles\parallel.dir
   OBJECT_FILE_DIR = CMakeFiles\parallel.dir
