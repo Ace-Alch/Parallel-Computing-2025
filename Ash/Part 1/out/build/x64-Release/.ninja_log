@@ -1,3 +1,5 @@
 # ninja log v6
-4	221	7836172093626631	CMakeFiles/parallel.dir/parallel.c.obj	223e0d0545966e25
-223	449	7836172095820434	parallel.exe	392f167e0a61e5ae
+6	176	7836487958418278	CMakeFiles/parallel.dir/parallel.c.obj	63e30de72b344dbd
+177	348	7836487960138246	parallel.exe	bb2d16bcdc578c2b
+29	1235	7836499004880479	CMakeFiles/parallel.dir/parallel.c.obj	e6afb0f83324f8a5
+1237	1696	7836499016970593	parallel.exe	bb2d16bcdc578c2b

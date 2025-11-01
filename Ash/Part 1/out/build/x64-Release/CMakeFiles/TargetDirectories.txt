@@ -1,3 +1,3 @@
-C:/Users/vqf634/source/repos/Parallel-Computing-2025/Ash/Part 1/out/build/x64-Release/CMakeFiles/parallel.dir
-C:/Users/vqf634/source/repos/Parallel-Computing-2025/Ash/Part 1/out/build/x64-Release/CMakeFiles/edit_cache.dir
-C:/Users/vqf634/source/repos/Parallel-Computing-2025/Ash/Part 1/out/build/x64-Release/CMakeFiles/rebuild_cache.dir
+C:/Users/Ace-ALCHEMIST/Desktop/parallel/Parallel-Computing-2025/Ash/Part 1/out/build/x64-Release/CMakeFiles/parallel.dir
+C:/Users/Ace-ALCHEMIST/Desktop/parallel/Parallel-Computing-2025/Ash/Part 1/out/build/x64-Release/CMakeFiles/edit_cache.dir
+C:/Users/Ace-ALCHEMIST/Desktop/parallel/Parallel-Computing-2025/Ash/Part 1/out/build/x64-Release/CMakeFiles/rebuild_cache.dir
