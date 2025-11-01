@@ -1,0 +1,21 @@
+COMP.CE.350 Parallel Computing
+==============================
+
+Project work Pre-return
+-----------------------
+
+In this task you confirm your OpenCL installation.
+If you installed OpenCL on your own machine, this is a very important
+step to validate your installation.
+In case you are using Lab machines, this is still useful to guarantee
+you can run OpenCL programs on those machines.
+
+In order to complete the exercise:
+1. Run the provided program.
+2. Copy the printed (console) output of the running program and submit that to Moodle,
+   in the pre-return submission.
+3. That's it, nothing else is needed.
+
+
+Feel free to copy parts of the VectorAdd.c to your own OpenCL programs.
+
