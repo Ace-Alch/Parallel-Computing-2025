@@ -1,3 +1,0 @@
-D:/Tampere University/COMP.CE.350 Parallel Computing/Project/Satellites/build/CMakeFiles/parallel.dir
-D:/Tampere University/COMP.CE.350 Parallel Computing/Project/Satellites/build/CMakeFiles/ALL_BUILD.dir
-D:/Tampere University/COMP.CE.350 Parallel Computing/Project/Satellites/build/CMakeFiles/ZERO_CHECK.dir

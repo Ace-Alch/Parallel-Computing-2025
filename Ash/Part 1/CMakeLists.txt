@@ -8,7 +8,7 @@ add_executable(parallel parallel.c)
 # See the project work document on compiler flag syntax on Linux and Windows
 
 target_compile_options(parallel PRIVATE /Qvec-report:2)
-target_compile_options(parallel PRIVATE /fp:fast /arch:AVX2)
+target_compile_options(parallel PRIVATE /fp:fast /arch:AVX2 )
 
 
 # Prerequisite for enabling OpenMP on macOS.

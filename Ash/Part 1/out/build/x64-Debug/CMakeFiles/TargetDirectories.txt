@@ -1,3 +1,0 @@
-C:/Users/Ace-ALCHEMIST/Desktop/parallel/Parallel-Computing-2025/Ash/Part 1/out/build/x64-Debug/CMakeFiles/parallel.dir
-C:/Users/Ace-ALCHEMIST/Desktop/parallel/Parallel-Computing-2025/Ash/Part 1/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/Ace-ALCHEMIST/Desktop/parallel/Parallel-Computing-2025/Ash/Part 1/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
