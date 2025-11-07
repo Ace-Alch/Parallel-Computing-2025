@@ -1,25 +1,24 @@
-// parallel.cl — OpenCL kernel for the graphics pass (BGRA output)
-
 __kernel void shade(
-    __global uchar4* out_pixels,           // SIZE = width*height (BGRA)
-    __global const float* sat_pos_x,       // SATELLITE_COUNT
-    __global const float* sat_pos_y,       // SATELLITE_COUNT
-    __global const float* id_r,            // SATELLITE_COUNT
-    __global const float* id_g,            // SATELLITE_COUNT
-    __global const float* id_b,            // SATELLITE_COUNT
+    __global uchar4*        out_pixels,      // SIZE = width*height (BGRA)
+    __global const float*   sat_pos_x,       // SATELLITE_COUNT
+    __global const float*   sat_pos_y,       // SATELLITE_COUNT
+    __global const float*   id_r,            // SATELLITE_COUNT
+    __global const float*   id_g,            // SATELLITE_COUNT
+    __global const float*   id_b,            // SATELLITE_COUNT
     const int   sat_count,
     const int   width,
     const int   height,
-    const float bh_r2,                     // BLACK_HOLE_RADIUS^2
-    const float sat_r2,                    // SATELLITE_RADIUS^2
-    const int   mouse_x,                   // black hole center X
-    const int   mouse_y)                   // black hole center Y
+    const float bh_r2,                       // BLACK_HOLE_RADIUS^2
+    const float sat_r2,                      // SATELLITE_RADIUS^2
+    const int   mouse_x,                     // black hole center X
+    const int   mouse_y)                     // black hole center Y
 {
-    const int x = get_global_id(0);
-    const int y = get_global_id(1);
+    const int   x = get_global_id(0);
+    const int   y = get_global_id(1);
+
     if (x >= width || y >= height) return;
 
-    const int idx = y * width + x;
+    const int   idx = y * width + x;
     const float px = (float)x;
     const float py = (float)y;
 
@@ -27,6 +26,7 @@ __kernel void shade(
     float dxBH = px - (float)mouse_x;
     float dyBH = py - (float)mouse_y;
     float d2BH = dxBH * dxBH + dyBH * dyBH;
+
     if (d2BH < bh_r2) {
         out_pixels[idx] = (uchar4)(0, 0, 0, 0);   // BGRA = black
         return;
@@ -50,8 +50,8 @@ __kernel void shade(
             break;
         }
 
-        float inv = 1.0f / d2;      // fast: use -cl-fast-relaxed-math build
-        float w = inv * inv;      // 1/(d2*d2)
+        float inv = 1.0f / d2;
+        float w = inv * inv;
         weights += w;
 
         sumR += id_r[j] * w;

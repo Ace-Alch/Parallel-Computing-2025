@@ -74,9 +74,9 @@ static cl_mem              d_id_r   =   NULL;
 static cl_mem              d_id_g   =   NULL;
 static cl_mem              d_id_b   =   NULL;
 
-// Work-group size (edit these to test 1x1, 4x4, 8x4, 8x8, 16x16)
-static size_t              WGX      =   16;
-static size_t              WGY      =   16;
+// Work-group size ( 1x1, 4x4, 8x4, 8x8, 16x16)
+static size_t              WGX      =   32;
+static size_t              WGY      =   32;
 
 
 ////////////////////////////////////////////////
@@ -230,8 +230,8 @@ void init(){
     clProg = clCreateProgramWithSource(clCtx, 1, srcs, lens, &err); CL_CHECK(err);
     free(src);
 
-    const char* buildOpts = "-cl-fast-relaxed-math -cl-mad-enable -cl-unsafe-math-optimizations";
-    err = clBuildProgram(clProg, 1, &clDev, buildOpts, NULL, NULL);
+    const char* buildOpts = "-cl-fast-relaxed-math -cl-mad-enable -cl-unsafe-math-optimizations"; 
+    err = clBuildProgram(clProg, 1, &clDev, buildOpts, NULL, NULL); // build from kernel file
     if (err != CL_SUCCESS) {
         size_t logSize = 0; clGetProgramBuildInfo(clProg, clDev, CL_PROGRAM_BUILD_LOG, 0, NULL, &logSize);
         char* log = (char*)malloc(logSize + 1);
@@ -266,11 +266,13 @@ void init(){
     CL_CHECK(clEnqueueWriteBuffer(clQ, d_id_g, CL_TRUE, 0, sizeof(h_id_g), h_id_g, 0, NULL, NULL));
     CL_CHECK(clEnqueueWriteBuffer(clQ, d_id_b, CL_TRUE, 0, sizeof(h_id_b), h_id_b, 0, NULL, NULL));
 
-    // Optional: print WG preference
+    // print WG preference
     size_t pref = 0, maxWG = 0;
+    size_t devMaxWG = 0;
+    clGetDeviceInfo(clDev, CL_DEVICE_MAX_WORK_GROUP_SIZE,sizeof(devMaxWG), &devMaxWG, NULL);
     clGetKernelWorkGroupInfo(clKer, clDev, CL_KERNEL_PREFERRED_WORK_GROUP_SIZE_MULTIPLE, sizeof(pref), &pref, NULL);
     clGetKernelWorkGroupInfo(clKer, clDev, CL_KERNEL_WORK_GROUP_SIZE, sizeof(maxWG), &maxWG, NULL);
-    printf("Preferred WG multiple: %zu | Max WG size: %zu\n", pref, maxWG);
+    printf("Preferred WG multiple: %zu | Kernel Max WG size: %zu | Device max WG size: %zu \n", pref, maxWG, devMaxWG);
 }
 
 
